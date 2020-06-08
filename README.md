@@ -75,13 +75,13 @@ to connect the output to our website.
 
 2. Create a new function to update the HTML on the page. You could call this function "updateHTML". Inside this function, place the call to the function you created in Assignment 1.
 
-3. Inside this function, also access the `<h1></h1>` tag as an object from the DOM.
+3. Inside this function, access the `<h1></h1>` tag as an object from the DOM, and place this into a variable.
 
 > Hint: There are many ways you can access HTML tags via the DOM
 
-> For example, you could give the `<h1></h1>` tag an ID or a class
+> Hint: For example, you could give the `<h1></h1>` tag an ID or a class
 
-> You could then use DOM methods such as `document.querySelector()` or `document.getElementById()` to get the tag as an object
+> Hint: You could then use DOM methods such as `document.querySelector()` or `document.getElementById()` to get the tag as an object
 
 4. Once you have your object, modify the `innerText` property of the object with the result of the random name from the function you created in Assignment 1.
 
