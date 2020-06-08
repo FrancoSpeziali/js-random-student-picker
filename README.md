@@ -46,6 +46,8 @@ Research: [Math.random() [Deutsch]](https://developer.mozilla.org/de/docs/Web/Ja
 
 3. The function should return the randomly selected name when you call it.
 
+4. Call function you just created, passing into the function the array of student names.
+
 > Hint: Think about how we can limit the range of the selected
 > random number to the number of items in the array
 
@@ -71,9 +73,9 @@ to connect the output to our website.
 
 1. Inside the file `index.html`, create the HTML tag `<h1></h1>`.
 
-2. Call the function you created in Assignment 1, passing into the function the array value of student names. Wrap this function call inside a new function, you could call this function "updateHTML".
+2. Create a new function to update the HTML on the page. You could call this function "updateHTML". Inside this function, place the call to the function you created in Assignment 1.
 
-3. Inside this function, access the `<h1></h1>` tag as an object from the DOM.
+3. Inside this function, also access the `<h1></h1>` tag as an object from the DOM.
 
 > Hint: There are many ways you can access HTML tags via the DOM
 
