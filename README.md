@@ -119,7 +119,7 @@ Research: [Element.setAttribute() [Deutsch]](https://developer.mozilla.org/de/do
 
 - Add an `<img />` tag into your HTML, with an empty "src" attribute. Give it a class or an id so you can select it more easily later.
 
-- Using the function you created in Assignment 3 (you may have called this "updateHTML". Get the object from the DOM for the `<img />` you just created.
+- Inside the function you created in Assignment 3 (you may have called this "updateHTML"), create a variable to store DOM object for the `<img />` tag you just created.
 
 - Call the function you created in Assignment 5 (you may have called this "getRandomImage") and use the result to set the attribute "src" in your `<img />` tag.
 
